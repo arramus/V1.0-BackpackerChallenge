@@ -2216,7 +2216,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceMechanicalParts" count="10"/>
 </recipe>
 
-<recipe name="metalReinforcedWoodDrawBridge" count="1" craft_area="workbench" >
+<recipe name="metalReinforcedWoodDrawBridge" count="1" craft_area="workbench" tags="workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="20"/>
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceSpring" count="20"/>
@@ -2274,7 +2274,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="gunHandgunT1Pistol" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+<!--recipe name="gunHandgunT1Pistol" count="1" craft_area="workbench" tags="learnable,perkGunslinger,workbenchCrafting">
 	<ingredient name="gunHandgunT1PistolParts" count="1"/>
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceDuctTape" count="1"/>
@@ -2288,7 +2288,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunHandgunT2Magnum44" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+<recipe name="gunHandgunT2Magnum44" count="1" craft_area="workbench" tags="learnable,perkGunslinger,workbenchCrafting">
 	<ingredient name="gunHandgunT1PistolParts" count="7"/>
 	<ingredient name="resourceForgedSteel" count="40"/>
 	<ingredient name="resourceDuctTape" count="7"/>
@@ -2302,7 +2302,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunHandgunT3DesertVulture" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+<recipe name="gunHandgunT3DesertVulture" count="1" craft_area="workbench" tags="learnable,perkGunslinger,workbenchCrafting">
 	<ingredient name="gunHandgunT1PistolParts" count="13"/>
 	<ingredient name="resourceForgedSteel" count="100"/>
 	<ingredient name="resourceDuctTape" count="13"/>
@@ -2316,7 +2316,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunHandgunT3SMG5" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+<recipe name="gunHandgunT3SMG5" count="1" craft_area="workbench" tags="learnable,perkGunslinger,workbenchCrafting">
 	<ingredient name="gunHandgunT1PistolParts" count="13"/>
 	<ingredient name="resourceForgedSteel" count="100"/>
 	<ingredient name="resourceDuctTape" count="13"/>
@@ -2341,7 +2341,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="gunShotgunT1DoubleBarrel" count="1" craft_area="workbench" tags="learnable,perkBoomstick">
+<!--recipe name="gunShotgunT1DoubleBarrel" count="1" craft_area="workbench" tags="learnable,perkBoomstick,workbenchCrafting">
 	<ingredient name="gunShotgunT1DoubleBarrelParts" count="1"/>
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceDuctTape" count="1"/>
@@ -2355,7 +2355,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunShotgunT2PumpShotgun" count="1" craft_area="workbench" tags="learnable,perkBoomstick">
+<recipe name="gunShotgunT2PumpShotgun" count="1" craft_area="workbench" tags="learnable,perkBoomstick,workbenchCrafting">
 	<ingredient name="gunShotgunT1DoubleBarrelParts" count="7"/>
 	<ingredient name="resourceForgedSteel" count="40"/>
 	<ingredient name="resourceDuctTape" count="7"/>
@@ -2369,7 +2369,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunShotgunT3AutoShotgun" count="1" craft_area="workbench" tags="learnable,perkBoomstick">
+<recipe name="gunShotgunT3AutoShotgun" count="1" craft_area="workbench" tags="learnable,perkBoomstick,workbenchCrafting">
 	<ingredient name="gunShotgunT1DoubleBarrelParts" count="13"/>
 	<ingredient name="resourceForgedSteel" count="100"/>
 	<ingredient name="resourceDuctTape" count="13"/>
@@ -2394,7 +2394,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="gunRifleT1HuntingRifle" count="1" craft_area="workbench" tags="learnable,perkDeadEye">
+<!--recipe name="gunRifleT1HuntingRifle" count="1" craft_area="workbench" tags="learnable,perkDeadEye,workbenchCrafting">
 	<ingredient name="gunRifleT1HuntingRifleParts" count="1"/>
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceDuctTape" count="1"/>
@@ -2408,7 +2408,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunRifleT2LeverActionRifle" count="1" craft_area="workbench" tags="learnable,perkDeadEye">
+<recipe name="gunRifleT2LeverActionRifle" count="1" craft_area="workbench" tags="learnable,perkDeadEye,workbenchCrafting">
 	<ingredient name="gunRifleT1HuntingRifleParts" count="7"/>
 	<ingredient name="resourceForgedSteel" count="40"/>
 	<ingredient name="resourceDuctTape" count="7"/>
@@ -2422,7 +2422,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunRifleT3SniperRifle" count="1" craft_area="workbench" tags="learnable,perkDeadEye">
+<recipe name="gunRifleT3SniperRifle" count="1" craft_area="workbench" tags="learnable,perkDeadEye,workbenchCrafting">
 	<ingredient name="gunRifleT1HuntingRifleParts" count="13"/>
 	<ingredient name="resourceForgedSteel" count="100"/>
 	<ingredient name="resourceDuctTape" count="13"/>
@@ -2447,7 +2447,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="gunMGT1AK47" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
+<!--recipe name="gunMGT1AK47" count="1" craft_area="workbench" tags="learnable,perkMachineGunner,workbenchCrafting">
 	<ingredient name="gunMGT1AK47Parts" count="1"/>
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceDuctTape" count="1"/>
@@ -2461,7 +2461,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunMGT2TacticalAR" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
+<recipe name="gunMGT2TacticalAR" count="1" craft_area="workbench" tags="learnable,perkMachineGunner,workbenchCrafting">
 	<ingredient name="gunMGT1AK47Parts" count="7"/>
 	<ingredient name="resourceForgedSteel" count="40"/>
 	<ingredient name="resourceDuctTape" count="7"/>
@@ -2475,7 +2475,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunMGT3M60" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
+<recipe name="gunMGT3M60" count="1" craft_area="workbench" tags="learnable,perkMachineGunner,workbenchCrafting">
 	<ingredient name="gunMGT1AK47Parts" count="13"/>
 	<ingredient name="resourceForgedSteel" count="100"/>
 	<ingredient name="resourceDuctTape" count="13"/>
@@ -2489,7 +2489,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunExplosivesT3RocketLauncher" count="1" craft_area="workbench" tags="learnable,perkDemolitionsExpert">
+<recipe name="gunExplosivesT3RocketLauncher" count="1" craft_area="workbench" tags="learnable,perkDemolitionsExpert,workbenchCrafting">
 	<ingredient name="gunExplosivesT3RocketLauncherParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="20"/>
 	<ingredient name="resourceDuctTape" count="3"/>
@@ -2524,7 +2524,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="gunBowT3CompoundBow" count="1" craft_area="workbench" tags="learnable,perkArchery">
+<!--recipe name="gunBowT3CompoundBow" count="1" craft_area="workbench" tags="learnable,perkArchery,workbenchCrafting">
 	<ingredient name="gunBowT1WoodenBowParts" count="13"/>
 	<ingredient name="resourceLeather" count="25"/>
 	<ingredient name="resourceDuctTape" count="13"/>
@@ -2538,7 +2538,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunBowT1IronCrossbow" count="1" craft_area="workbench" tags="learnable,perkArchery">
+<recipe name="gunBowT1IronCrossbow" count="1" craft_area="workbench" tags="learnable,perkArchery,workbenchCrafting">
 	<ingredient name="gunBowT1WoodenBowParts" count="7"/>
 	<ingredient name="resourceForgedIron" count="35"/>
 	<ingredient name="resourceDuctTape" count="7"/>
@@ -2552,7 +2552,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunBowT3CompoundCrossbow" count="1" craft_area="workbench" tags="learnable,perkArchery">
+<recipe name="gunBowT3CompoundCrossbow" count="1" craft_area="workbench" tags="learnable,perkArchery,workbenchCrafting">
 	<ingredient name="gunBowT1WoodenBowParts" count="13"/>
 	<ingredient name="resourceForgedSteel" count="100"/>
 	<ingredient name="resourceDuctTape" count="13"/>
@@ -2566,7 +2566,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunBotT1JunkSledge" count="1" craft_area="workbench" tags="learnable,perkTurrets">
+<recipe name="gunBotT1JunkSledge" count="1" craft_area="workbench" tags="learnable,perkTurrets,workbenchCrafting">
 	<ingredient name="gunBotRoboticsParts" count="1"/>
 	<ingredient name="resourceForgedIron" count="40"/>
 	<ingredient name="resourceDuctTape" count="10"/>
@@ -2578,7 +2578,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunBotT2JunkTurret" count="1" craft_area="workbench" tags="learnable,perkTurrets">
+<recipe name="gunBotT2JunkTurret" count="1" craft_area="workbench" tags="learnable,perkTurrets,workbenchCrafting">
 	<ingredient name="gunBotRoboticsParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="40"/>
 	<ingredient name="resourceDuctTape" count="10"/>
@@ -2590,10 +2590,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunBotT3JunkDrone" count="1" craft_area="workbench" tags="learnable,perkTurrets">
+<recipe name="gunBotT3JunkDrone" count="1" craft_area="workbench" tags="learnable,perkTurrets,workbenchCrafting">
 	<ingredient name="gunBotRoboticsParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="10"/>
-	<ingredient name="resourceDuctTape" count="15"/>
+	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="motionsensor" count="2"/>
 	<ingredient name="resourceLegendaryParts" count="0"/>
 	<effect_group>
@@ -2763,7 +2763,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="meleeWpnClubT3SteelClub" count="1" craft_area="workbench" tags="learnable,perkPummelPete">
+<!--recipe name="meleeWpnClubT3SteelClub" count="1" craft_area="workbench" tags="learnable,perkPummelPete,workbenchCrafting">
 	<ingredient name="meleeWpnClubT3SteelClubParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="10"/>
 	<ingredient name="resourceWood" count="10"/>
@@ -2775,7 +2775,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="meleeToolPickT3Auger" count="1" craft_area="workbench" tags="learnable,perkMiner69r,craftingHarvestingTools">
+<recipe name="meleeToolPickT3Auger" count="1" craft_area="workbench" tags="learnable,perkMiner69r,craftingHarvestingTools,workbenchCrafting">
 	<ingredient name="meleeToolAxeT3ChainsawParts" count="1"/>
 	<ingredient name="vehicleBicycleHandlebars" count="1"/>
 	<ingredient name="smallEngine" count="1"/>
@@ -2787,7 +2787,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="meleeToolAxeT3Chainsaw" count="1" craft_area="workbench" tags="learnable,perkMiner69r,craftingHarvestingTools">
+<recipe name="meleeToolAxeT3Chainsaw" count="1" craft_area="workbench" tags="learnable,perkMiner69r,craftingHarvestingTools,workbenchCrafting">
 	<ingredient name="meleeToolAxeT3ChainsawParts" count="1"/>
 	<ingredient name="vehicleBicycleHandlebars" count="1"/>
 	<ingredient name="smallEngine" count="1"/>
@@ -2823,7 +2823,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="meleeToolAxeT2SteelAxe" count="1" craft_area="workbench" tags="learnable,perkMiner69r,craftingHarvestingTools">
+<!--recipe name="meleeToolAxeT2SteelAxe" count="1" craft_area="workbench" tags="learnable,perkMiner69r,craftingHarvestingTools,workbenchCrafting">
 	<ingredient name="meleeToolAllSteelParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="10"/>
 	<ingredient name="resourceWood" count="10"/>
@@ -2857,7 +2857,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="meleeWpnSpearT3SteelSpear" count="1" craft_area="workbench" tags="learnable,perkJavelinMaster,craftingSpears">
+<!--recipe name="meleeWpnSpearT3SteelSpear" count="1" craft_area="workbench" tags="learnable,perkJavelinMaster,craftingSpears,workbenchCrafting">
 	<ingredient name="meleeWpnSpearT3SteelSpearParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="10"/>
 	<ingredient name="resourceWood" count="10"/>
@@ -2888,7 +2888,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="meleeWpnBladeT3Machete" count="1" craft_area="workbench" craft_time="60" tags="learnable,perkDeepCuts">
+<!--recipe name="meleeWpnBladeT3Machete" count="1" craft_area="workbench" craft_time="60" tags="learnable,perkDeepCuts,workbenchCrafting">
 	<ingredient name="meleeWpnBladeT3MacheteParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="10"/>
 	<ingredient name="resourceWood" count="10"/>
@@ -2917,7 +2917,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="meleeToolPickT2SteelPickaxe" count="1" craft_area="workbench" tags="learnable,craftingHarvestingTools"--><!-- perkMiner69r -->
+<!--recipe name="meleeToolPickT2SteelPickaxe" count="1" craft_area="workbench" tags="learnable,craftingHarvestingTools,workbenchCrafting"--><!-- perkMiner69r -->
 	<!--ingredient name="meleeToolAllSteelParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="10"/>
 	<ingredient name="resourceWood" count="10"/>
@@ -2941,7 +2941,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="meleeToolShovelT2SteelShovel" count="1" craft_area="workbench" tags="learnable,craftingHarvestingTools"--><!-- perkMiner69r -->
+<!--recipe name="meleeToolShovelT2SteelShovel" count="1" craft_area="workbench" tags="learnable,craftingHarvestingTools,workbenchCrafting"--><!-- perkMiner69r -->
 	<!--ingredient name="meleeToolAllSteelParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="10"/>
 	<ingredient name="resourceWood" count="10"/>
@@ -2985,7 +2985,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="meleeWpnSledgeT3SteelSledgehammer" count="1" craft_area="workbench" tags="learnable,perkSkullCrusher">
+<!--recipe name="meleeWpnSledgeT3SteelSledgehammer" count="1" craft_area="workbench" tags="learnable,perkSkullCrusher,workbenchCrafting">
 	<ingredient name="meleeWpnSledgeT3SteelSledgehammerParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="10"/>
 	<ingredient name="resourceWood" count="10"/>
@@ -3017,7 +3017,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="meleeWpnBatonT2StunBaton" count="1" craft_area="workbench" tags="learnable,perkElectrocutioner">
+<!--recipe name="meleeWpnBatonT2StunBaton" count="1" craft_area="workbench" tags="learnable,perkElectrocutioner,workbenchCrafting">
 	<ingredient name="meleeWpnBatonT2StunBatonParts" count="1"/>
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceDuctTape" count="2"/>
@@ -3051,7 +3051,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="meleeToolSalvageT2Ratchet" count="1" craft_area="workbench" tags="learnable,perkSalvageOperations">
+<!--recipe name="meleeToolSalvageT2Ratchet" count="1" craft_area="workbench" tags="learnable,perkSalvageOperations,workbenchCrafting">
 	<ingredient name="meleeToolAllSteelParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="8"/>
 	<ingredient name="resourceMechanicalParts" count="5"/>
@@ -3063,7 +3063,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="meleeToolSalvageT3ImpactDriver" count="1" craft_area="workbench" tags="learnable,perkSalvageOperations">
+<recipe name="meleeToolSalvageT3ImpactDriver" count="1" craft_area="workbench" tags="learnable,perkSalvageOperations,workbenchCrafting">
 	<ingredient name="meleeToolAxeT3ChainsawParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="16"/>
 	<ingredient name="resourceMechanicalParts" count="6"/>
@@ -3096,7 +3096,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="meleeWpnKnucklesT3SteelKnuckles" count="1" craft_area="workbench" tags="learnable,perkBrawler">
+<!--recipe name="meleeWpnKnucklesT3SteelKnuckles" count="1" craft_area="workbench" tags="learnable,perkBrawler,workbenchCrafting">
 	<ingredient name="meleeWpnKnucklesT3SteelKnucklesParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="10"/>
 	<ingredient name="resourceLeather" count="3"/>

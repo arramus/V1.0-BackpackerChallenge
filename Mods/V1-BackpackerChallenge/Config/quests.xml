@@ -1,0 +1,27 @@
+<BackpackerChallenge>
+	
+ 	<append xpath="/quests">
+	
+<!-- *** STARTER MESSAGE -->
+	
+	<!-- White River Citizen 0 - Start Point -->
+	<quest id="quest_whiteRiverCitizen0">
+		<property name="group_name_key" value="quest_WhiteRiverCitizen0"/>
+		<property name="name_key" value="quest_WhiteRiverCitizen0_name"/>
+		<property name="subtitle_key" value="quest_WhiteRiverCitizen0_subtitle"/>
+		<property name="description_key" value="quest_WhiteRiverCitizen0_description"/>
+		<property name="icon" value="ui_game_symbol_map_trader"/>
+		<property name="category_key" value="quest"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<action type="ShowMessageWindow">
+			<property name="message" value="quest_WhiteRiverCitizen0_description"/>
+			<property name="title" value="quest_WhiteRiverCitizen0_description_title"/>
+			<property name="delay" value="3"/>
+		</action>
+	</quest>
+	
+	</append>
+
+</BackpackerChallenge>

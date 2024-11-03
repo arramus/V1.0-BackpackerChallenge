@@ -1,6 +1,6 @@
 <Servers>
-  <ServerGroup Name="Backpacker Challenge (V1.0)">
-    <Server Name="Backpacker Challenge (V1.0)" Logo="https://i.imgur.com/13GRILd.jpeg">
+  <ServerGroup Name="Backpacker Challenge (V1)">
+    <Server Name="Backpacker Challenge (V1)" Logo="https://i.imgur.com/13GRILd.jpeg">
       <Description>Restricts crafting to backpack and campfire recipes.
 	  
 Backpacker Challenge allows our streamers, party players, and lone wolves to play by a simple set of predetermined rules.
@@ -12,7 +12,7 @@ RULES:
 
 Brought to the community by arramus.
 	  </Description>
-        <Version>1.0</Version>
+        <Version>1</Version>
 		<RSS/>
         <Excludes></Excludes>
         <ReleaseNotes></ReleaseNotes>

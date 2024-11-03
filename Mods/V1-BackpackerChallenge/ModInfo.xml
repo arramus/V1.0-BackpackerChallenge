@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<Name value="V1_BackpackerChallenge" />
-	<DisplayName value="V1.0 Backpacker Challenge" />
+	<DisplayName value="V1 Backpacker Challenge" />
 	<Description value="Allows crafting from only the backpack/Backpacker Workbench and campfire recipes." />
 	<Author value="arramus" />
 	<Version value="1.1.0.0" />
